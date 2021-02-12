@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width:auto;
+
+}
+.card{
+    width: 250px;
+    margin: 40px;
+}
+.text{
+    text-align: center;
+}

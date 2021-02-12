@@ -1,0 +1,19 @@
+footer{
+    height:100px;
+    width:100%;
+    background-color: #69f0ae;
+    border-radius: 5px;
+    padding-top: 15px;
+}
+a{
+    color: rgba(0,0,0,.87);
+    margin: 0px 0px 0px 30px;
+    padding-top: 2px;
+    text-decoration: none;
+    line-height: 2rem;
+}
+img{
+    display: inline-block;
+    vertical-align: text-bottom;
+    height: 20px;
+}

@@ -1,0 +1,54 @@
+.banckgroud-nav{
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 0 0 50px 50px;
+}
+.nav-container {
+    display: flex;
+    justify-content: center;
+
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    border-radius: 750px;
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: -380px;
+}
+.first-aro{
+    display: flex;
+    justify-content: center;
+    border: 5px solid darkblue ;
+    height: 200px;
+    width: 200px;
+    margin-top: 380px;
+    border-radius: 150px;
+    background-color: darkviolet;
+}  
+.profile{
+    display: inline-block;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    top: 55px;
+}
+.profile:hover{
+    cursor: pointer;
+}
+
+
+@media(max-width: 750px){
+    .nav-container{
+        display: flex;
+        justify-content: center;
+    }
+    .profile{
+        width: 100px;
+        height: 100px;
+    }
+}

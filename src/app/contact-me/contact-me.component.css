@@ -1,0 +1,12 @@
+.card{
+    height: 400px;
+    width: 300px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

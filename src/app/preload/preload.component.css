@@ -1,0 +1,16 @@
+.preloader{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.typed{
+    text-align: center;
+    color: #fefefe;
+}
+.div-container{
+    width: 350px;
+}
