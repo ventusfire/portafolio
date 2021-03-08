@@ -10,9 +10,9 @@ export class PreloadComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    setTimeout(() => {
-      this.load = true;
-    }, 11000); /*11000*/
+    // setTimeout(() => {
+    //   this.load = true;
+    // }, 11000); /*11000*/
   }
 
 }
