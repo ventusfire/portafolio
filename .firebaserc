@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "briefcase-e84fe": {
+      "hosting": {
+        "briefcase": [
+          "briefcase-e84fe"
+        ]
+      }
+    }
+  }
+}

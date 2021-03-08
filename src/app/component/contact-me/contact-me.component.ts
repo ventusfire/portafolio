@@ -1,6 +1,7 @@
+import { jsDocComment } from '@angular/compiler';
+import { Message } from '@angular/compiler/src/i18n/i18n_ast';
 import { Component, OnInit } from '@angular/core';
 import { FormControl, Validators, FormBuilder, FormGroup } from '@angular/forms';
-
 @Component({
   selector: 'app-contact-me',
   templateUrl: './contact-me.component.html',
@@ -9,7 +10,10 @@ import { FormControl, Validators, FormBuilder, FormGroup } from '@angular/forms'
 export class ContactMeComponent implements OnInit {
 
   contact!: FormGroup;
-  constructor(private fb:FormBuilder) {}
+  email: any;
+  message: any;
+  messageArray: string[] = [];;
+  constructor(private fb: FormBuilder) {}
 
   ngOnInit(): void {
     this.contact = this.fb.group({
@@ -19,16 +23,12 @@ export class ContactMeComponent implements OnInit {
     });
   }
 
-  onSubmit(){
-    console.log(this.contact.value)
+  onSubmit(): void{
+    console.log(this.contact.value);
+    this.messageArray.push(this.contact.value)
+    console.log(this.messageArray);
+
   }
 
-  /*getErrorMessage() {
-    if (this.email.hasError('required')) {
-      return 'You must enter a value';
-    }
-
-    return this.email.hasError('email') ? 'Not a valid email' : '';
-  }*/
 
 }

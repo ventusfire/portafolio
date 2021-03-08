@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { NgxTypedJsModule } from 'ngx-typed-js';
 
 @Component({
   selector: 'app-preload',
@@ -13,7 +12,7 @@ export class PreloadComponent implements OnInit {
   ngOnInit(): void {
     setTimeout(() => {
       this.load = true;
-    }, 110); /*11000*/
+    }, 11000); /*11000*/
   }
 
 }

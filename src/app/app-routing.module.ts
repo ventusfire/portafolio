@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { BooksReadComponent } from './books-read/books-read.component';
-import { ContactMeComponent } from './contact-me/contact-me.component';
-import { HomeComponent } from './home/home.component';
-import { LayoutComponent } from './layout/layout.component';
-import { ResourcesComponent } from './resources/resources.component';
-import { TechnologiesComponent } from './technologies/technologies.component';
-import { WorksComponent } from './works/works.component';
+import { BooksReadComponent } from './component/books-read/books-read.component';
+import { ContactMeComponent } from './component/contact-me/contact-me.component';
+import { HomeComponent } from './component/home/home.component';
+import { LayoutComponent } from './component/layout/layout.component';
+import { ResourcesComponent } from './component/resources/resources.component';
+import { TechnologiesComponent } from './component/technologies/technologies.component';
+import { WorksComponent } from './component/works/works.component';
 
 const routes: Routes = [
   {

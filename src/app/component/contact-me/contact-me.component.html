@@ -8,7 +8,6 @@
         formControlName="email"
         required
       />
-      <!-- <mat-error *ngIf="email.invalid">{{ getErrorMessage() }}</mat-error> -->
     </mat-form-field>
 
     <mat-form-field appearance="outline" color="accent">
@@ -19,7 +18,7 @@
         formControlName="name"
         required
       />
-      <mat-error></mat-error>
+      <mat-error>Missing a name</mat-error>
     </mat-form-field>
 
     <mat-form-field class="text" appearance="outline" color="accent">
@@ -31,6 +30,7 @@
         formControlName="text"
         required
       />
+      <mat-error>Missing a message</mat-error>
     </mat-form-field>
 
     <button mat-flat-button color="accent" [disabled]="contact.invalid">Send message</button>
